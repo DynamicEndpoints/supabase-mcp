@@ -1,5 +1,6 @@
 # Supabase MCP Server
 
+[![smithery badge](https://smithery.ai/badge/supabase-server)](https://smithery.ai/server/supabase-server)
 A Model Context Protocol (MCP) server that provides comprehensive tools for interacting with Supabase databases, storage, and edge functions. This server enables seamless integration between Supabase services and MCP-compatible applications.
 
 <a href="https://glama.ai/mcp/servers/vwi6nt8i80"><img width="380" height="200" src="https://glama.ai/mcp/servers/vwi6nt8i80/badge" alt="supabase-mcp MCP server" /></a>
@@ -48,6 +49,14 @@ supabase-server/
 - MCP-compatible client
 
 ## Installation
+
+### Installing via Smithery
+
+To install Supabase Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/supabase-server):
+
+```bash
+npx -y @smithery/cli install supabase-server --client claude
+```
 
 1. Clone the repository:
 ```bash
